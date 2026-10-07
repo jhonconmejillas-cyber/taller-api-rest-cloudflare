@@ -17,4 +17,3 @@
     "wrangler": "^4.44.0"
   }
 }
-{"name":"taller-api-rest-cloudflare","description":"API REST con Express y D1 en Cloudflare Workers - Taller Patrones de Diseño PUJ","version":"1.0.0","private":true,"scripts":{"dev":"wrangler d1 migrations apply DB --local && wrangler dev","predeploy":"wrangler d1 migrations apply DB --remote","deploy":"wrangler deploy"},"dependencies":{"express":"^5.1.0"},"devDependencies":{"@types/express":"^5.0.3","typescript":"^5.5.2","wrangler":"^4.44.0"}}
